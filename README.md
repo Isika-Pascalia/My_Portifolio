@@ -1,5 +1,5 @@
 # Pascalia's Portifolio
-Welcome to my portifolio website. I have created this project which is showcasing my background, skills, projects and interests.
+Welcome to my portifolio website. I have created this project using HTML and CSS which is showcasing my background, skills, projects and interests.
 
 ##Demo
 You can view the site by opening the 'index.html' file in your browser.
