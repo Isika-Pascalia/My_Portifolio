@@ -258,3 +258,105 @@ footer {
     color: white;
     padding: 10px;
 }
+
+/* ========================
+   RESPONSIVE DESIGN
+   ======================== */
+
+/* Tablets and smaller (<= 1024px) */
+@media (max-width: 1024px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 20px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: flex-start;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text {
+        flex: 1 1 auto;
+    }
+
+    .hero-image img {
+        max-width: 220px;
+    }
+
+    .education {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+/* Mobile phones (<= 768px) */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .search {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .search input {
+        flex: 1;
+        max-width: 100%;
+    }
+
+    .card-container, .project-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card, .project-card {
+        width: 90%;
+    }
+
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+
+    .hero-text p {
+        font-size: 1rem;
+    }
+}
+
+/* Extra small screens (<= 480px) */
+@media (max-width: 480px) {
+    header {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 1.2rem;
+    }
+
+    nav ul {
+        gap: 5px;
+    }
+
+    .hero-text h1 {
+        font-size: 1.6rem;
+    }
+
+    .hero-btn {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+
+    a.download-cv {
+        max-width: 100%;
+    }
+}
